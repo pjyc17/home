@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
@@ -53,5 +53,5 @@
     "gh-pages": "^3.2.3",
     "prettier": "^2.3.1"
   },
-  "homepage": "https://pjyc17.github.io/portfolio/"
+  "homepage": "https://pjyc17.github.io/home/"
 }
